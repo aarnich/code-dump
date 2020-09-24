@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
 int main(){
-    cout << "fuck bryan";
-    return 1;
+    cout << "you gay";
+    cout << "you gay, change 2";
 }
