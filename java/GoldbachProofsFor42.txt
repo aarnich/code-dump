@@ -1,0 +1,5 @@
+All Prime number pairs for Goldbach Integer 42
+19:23
+5:37
+11:31
+13:29

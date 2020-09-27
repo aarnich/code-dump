@@ -1,0 +1,7 @@
+All Prime number pairs for Goldbach Integer 30
+17:13
+19:11
+7:23
+23:7
+11:19
+13:17
