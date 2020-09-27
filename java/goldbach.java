@@ -17,6 +17,7 @@ class goldbach {
         BachPairs = BachPairGenerator.PrimePairs(GoldBachLimit);
         kb.close();
         // File Generation for Goldbach Pairs and Goldbach N
+        System.out.println("Encoding Prime Pairs...");
         String FileName = "GoldbachProofsFor" + GoldBachLimit;
         newFile.NewFile(FileName);
         newFile.WriteToFile(GoldBachLimit, FileName, BachPairs);

@@ -27,6 +27,7 @@ public class CreateFile {
             for (Long keys : BachPairs.keySet()) {
                 fileStream.println(keys + ":" + BachPairs.get(keys));
             }
+            fileStream.println("Prime pair count: " + BachPairs.size());
             fileStream.close();
             System.out.println("Successfully wrote to the file.");
         } catch (IOException e) {

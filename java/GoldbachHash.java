@@ -17,21 +17,23 @@ public class GoldbachHash {
                 x = 1;
             kb.close();
         }
-        for (long i = 1; i <= n; i++) {
-            if (checker.MillerRabin(i))
-                Primes.add(i);
-            System.out.println("Adding " + i);
-        }
-
-        for (int i = 0; i < Primes.size(); i++) {
-            long ValueToBeChecked = Primes.get(i);
-            if ((!Pairs.containsKey(ValueToBeChecked)) && (!Pairs.containsValue(ValueToBeChecked))) {
-                long PotentialPrime = n - ValueToBeChecked;
-                if (checker.MillerRabin(PotentialPrime)) {
-                    Pairs.put(ValueToBeChecked, PotentialPrime);
+        for (long i = 2; i <= n; i++) {
+            if (checker.MillerRabin(i)) {
+                // Primes.add(i);
+                System.out.println("UPDATE: Adding " + i);
+                long ValueToBeChecked = i;
+                if (!(Pairs.containsKey(ValueToBeChecked)) && !(Pairs.containsValue(ValueToBeChecked))) {
+                    long PotentialPrime = n - ValueToBeChecked;
+                    if (checker.MillerRabin(PotentialPrime)) {
+                        Pairs.put(ValueToBeChecked, PotentialPrime);
+                    }
                 }
+
+                // for (int i = 0; i < Primes.size(); i++) {
             }
         }
+        // }
         return Pairs;
+
     }
 }
