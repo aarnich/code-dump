@@ -2488,3 +2488,4 @@ All Prime number pairs for Goldbach Integer 400000
 4091:395909
 159737:240263
 143357:256643
+Prime pair count: 2489
