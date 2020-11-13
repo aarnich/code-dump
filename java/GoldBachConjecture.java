@@ -27,7 +27,6 @@ public class GoldBachConjecture {
         }
         ArrayList<ArrayList<Long>> PrimePairs = new ArrayList<ArrayList<Long>>();
         ArrayList<Long> Added = new ArrayList<Long>();
-        Boolean duplicate = false;
         for (int j = 0; j < (primeNumbers.size() - 1); j++) {
             long num = primeNumbers.get(j);
             for (int k = 0; k < primeNumbers.size(); k++) {

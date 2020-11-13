@@ -1,0 +1,4 @@
+All Prime number pairs for Goldbach Integer 52
+5:47
+23:29
+11:41

@@ -6,6 +6,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Main",
+      "request": "launch",
+      "mainClass": "coprimes.Main",
+      "projectName": "java_2d4a9658"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Encode",
+      "request": "launch",
+      "mainClass": "Encode",
+      "projectName": "java_2d4a9658"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Euclidean",
+      "request": "launch",
+      "mainClass": "Euclidean",
+      "projectName": "java_2d4a9658"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - goldbach",
+      "request": "launch",
+      "mainClass": "_.goldbach",
+      "projectName": "java_2d4a9658"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - SQLDatabaseConnection",
+      "request": "launch",
+      "mainClass": "SQLDatabaseConnection",
+      "projectName": "java_2d4a9658"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Jdbc",
+      "request": "launch",
+      "mainClass": "Jdbc",
+      "projectName": "java_2d4a9658"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - JdbcSQLServerConnection",
+      "request": "launch",
+      "mainClass": "JdbcSQLServerConnection",
+      "projectName": "java_2d4a9658"
+    },
+    {
+      "type": "java",
       "name": "Debug (Launch) - Current File",
       "request": "launch",
       "mainClass": "${file}"

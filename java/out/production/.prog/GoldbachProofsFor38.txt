@@ -1,0 +1,4 @@
+All Prime number pairs for Goldbach Integer 38
+19:19
+7:31
+Prime pair count: 2

@@ -1,7 +1,6 @@
 import java.io.File; // Import the File class
 import java.io.IOException; // Import the IOException class to handle errors
 import java.util.HashMap;
-import java.io.FileWriter;
 import java.io.PrintStream;
 
 public class CreateFile {

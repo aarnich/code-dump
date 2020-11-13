@@ -1,0 +1,49 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - goldbach",
+      "request": "launch",
+      "mainClass": "_.goldbach",
+      "projectName": "java_2d4a9658"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - SQLDatabaseConnection",
+      "request": "launch",
+      "mainClass": "SQLDatabaseConnection",
+      "projectName": "java_2d4a9658"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Jdbc",
+      "request": "launch",
+      "mainClass": "Jdbc",
+      "projectName": "java_2d4a9658"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - JdbcSQLServerConnection",
+      "request": "launch",
+      "mainClass": "JdbcSQLServerConnection",
+      "projectName": "java_2d4a9658"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch) - Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-goldbach<java_2d4a9658>",
+      "request": "launch",
+      "mainClass": "goldbach",
+      "projectName": "java_2d4a9658"
+    }
+  ]
+}

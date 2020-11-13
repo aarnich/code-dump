@@ -1,0 +1,5 @@
+All Prime number pairs for Goldbach Integer 44
+3:41
+7:37
+13:31
+Prime pair count: 3

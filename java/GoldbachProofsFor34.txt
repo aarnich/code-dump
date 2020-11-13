@@ -1,0 +1,6 @@
+All Prime number pairs for Goldbach Integer 34
+17:17
+3:31
+5:29
+11:23
+Prime pair count: 4

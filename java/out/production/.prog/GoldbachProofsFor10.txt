@@ -1,0 +1,4 @@
+All Prime number pairs for Goldbach Integer 10
+3:7
+5:5
+Prime pair count: 2

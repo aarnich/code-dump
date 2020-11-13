@@ -1,0 +1,7 @@
+All Prime number pairs for Goldbach Integer 60
+17:43
+19:41
+7:53
+23:37
+13:47
+29:31

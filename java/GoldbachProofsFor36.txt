@@ -1,0 +1,6 @@
+All Prime number pairs for Goldbach Integer 36
+17:19
+5:31
+7:29
+13:23
+Prime pair count: 4

@@ -1,12 +1,10 @@
 import java.util.Scanner;
 import java.util.HashMap;
-import java.util.ArrayList;
 
 public class GoldbachHash {
     public HashMap<Long, Long> PrimePairs(long n) {
         primality checker = new primality();
         HashMap<Long, Long> Pairs = new HashMap<Long, Long>();
-        ArrayList<Long> Primes = new ArrayList<Long>();
         int x = 2;
         Scanner kb = new Scanner(System.in);
         while (x == 2) {

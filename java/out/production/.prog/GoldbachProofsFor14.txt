@@ -1,0 +1,4 @@
+All Prime number pairs for Goldbach Integer 14
+3:11
+7:7
+Prime pair count: 2
