@@ -8,6 +8,20 @@
       "type": "java",
       "name": "CodeLens (Launch) - Main",
       "request": "launch",
+      "mainClass": "ProblemSetLesson30.Main",
+      "projectName": "java_2d4a9658"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Main",
+      "request": "launch",
+      "mainClass": "varargs.Main",
+      "projectName": "java_2d4a9658"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Main",
+      "request": "launch",
       "mainClass": "coprimes.Main",
       "projectName": "java_2d4a9658"
     },
